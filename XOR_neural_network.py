@@ -28,7 +28,7 @@ b2 = np.random.randn(output, 1)
 epoch = 100000
 learningRate = 0.01
 
-for i in range(epoch):
+for i in range(epoch): #ciclo de entrenamiento (100000 iteraciones)
 
     
     #------------------------------------------------------------------------------#
