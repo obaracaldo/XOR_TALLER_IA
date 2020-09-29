@@ -83,4 +83,5 @@ OUT_LAYER2 = sigmoid(Z2)
 
 #la salida de la red sera la prediccion de la xor de las dos listas binarias
 prediction = (OUT_LAYER2 > 0.5) * 1.0 #se aproxima a 1 si el resultado predicho es suficientemente grande
+print(f'XOR entre {X[0]} y {X[1]}')
 print(F'LA PREDICCION ES {prediction}')
